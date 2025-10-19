@@ -1,0 +1,10 @@
+﻿spring:
+  datasource:
+    url: jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;
+    username: mel
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: false
